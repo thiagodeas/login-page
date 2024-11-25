@@ -18,6 +18,8 @@ main {
     .main-section {
         flex-grow: 1;
         background-color: $gray-bg;
+        
+        gap: 8px;
 
         img {
             height: 400px;
