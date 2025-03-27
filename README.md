@@ -1,27 +1,17 @@
-# LoginPage
+# Tela de Login - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+## Descrição
 
-## Development server
+Este projeto foi desenvolvido com o objetivo de praticar e aplicar conceitos de Spring Security e JWT para autenticação e proteção de APIs. O Front-End foi construído utilizando **Angular**, **TypeScript** e **SCSS**, oferecendo uma interface simples para realizar operações de login e cadastro de usuários. O Back-End, desenvolvido em **Java** com **Spring Boot**, utiliza autenticação segura com tokens JWT para garantir que apenas usuários autenticados possam acessar determinadas funcionalidades.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+- **Angular**: Framework para construção da aplicação.
+- **TypeScript**: Para tipagem estática.
+- **SCSS**: Para estilização.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **Tela de Login**: Interface para o usuário inserir suas credenciais e acessar a aplicação.
+- **Tela de Cadastro**: Interface para permitir que novos usuários se cadastrem, com validação de campos.
+- **Validação de Formulários**: Verificação dos campos antes de enviar as informações para o Back-End.
